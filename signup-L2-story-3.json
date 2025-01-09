@@ -1,6 +1,6 @@
 {
   "scenes":[
-    {"frameNumber" : 0, "stepCode" : "START", "step" : { "code" : "liveness_check", "framesPerSecond" : 1, "durationInSeconds" : 100, "startupDelayInSeconds" : 1, "retryOnTimeout" : false, "retryableErrorCodes" : [] }, "feedback" : null },
+    {"frameNumber" : " ", "stepCode" : "START", "step" : { "code" : "liveness_check", "framesPerSecond" : 1, "durationInSeconds" : 100, "startupDelayInSeconds" : 1, "retryOnTimeout" : false, "retryableErrorCodes" : [] }, "feedback" : null },
     {"frameNumber" : 1, "stepCode" : "liveness_check", "step" : null, "feedback" : {"type" : "ERROR", "code" : "low_light" } },
     {"frameNumber" : 3, "stepCode" : "liveness_check", "step" : null, "feedback" : {"type" : "ERROR", "code" : "low_light" } },
     {"frameNumber" : 5, "stepCode" : "liveness_check", "step" : null, "feedback" : {"type" : "ERROR", "code" : "low_light" } },
@@ -9,6 +9,6 @@
   "verificationResult": {
     "status": "FAILED",
     "verifiedClaims" : {},
-    "errorCode": "low_light"
+    "errorCode": "invalid_frame"
   }
 }
