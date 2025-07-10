@@ -7,7 +7,9 @@
   ],
   "verificationResult": {
     "status": "COMPLETED",
-    "verifiedClaims" : { "fullName" : { "trust_framework":"ABC TF", "verification_process":"EKYC", "assurance_level": "Gold" },"phone" : { "trust_framework":"ABC TF", "verification_process":"EKYC", "assurance_level": "Silver" },"email" {"trust_framework":"ABC TF", "verification_process":"EKYC", "assurance_level": "Silver" }},
+    "verifiedClaims" : { "fullName" : { "trust_framework":"ABC TF", "verification_process":"EKYC", "assurance_level": "Gold" },
+      "phone" : { "trust_framework":"ABC TF", "verification_process":"EKYC", "assurance_level": "Silver" },
+      "email" : {"trust_framework":"ABC TF", "verification_process":"EKYC", "assurance_level": "Silver" }},
     "errorCode": null
   }
 }
