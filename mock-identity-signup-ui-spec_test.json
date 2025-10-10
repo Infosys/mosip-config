@@ -75,7 +75,7 @@
       "required": true
     },
     {
-      "id": "photoCapture",
+      "id": "encodedPhoto",
       "controlType": "photo",
       "labelName": {
         "eng": "Capture Photo",
