@@ -89,8 +89,7 @@
         "ara": "أدخل اسمك الكامل",
         "khm": "បញ្ចូលឈ្មោះពេញរបស់អ្នក"
       },
-      "alignmentGroup": "groupC",
-      "required": true
+      "alignmentGroup": "groupC"
     }
   ],
   "errors": {
